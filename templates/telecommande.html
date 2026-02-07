@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Double Joystick Top-Down</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/css/telecommande.css">
+</head>
+<body>
+  <h1>Double Joystick (Déplacement & Visée)</h1>
+
+  <p id="pPseudo">Connexion en cours…</p>
+
+  <div id="logoContainer">
+    <img id="logo" src="../static/logo.png" alt="squid">
+  </div>
+
+  <!-- Joystick gauche = déplacement -->
+  <div id="joystickMove" class="joystickContainer">
+    <div id="innerMove" class="innerCircle"></div>
+  </div>
+
+  <!-- Joystick droit = visée -->
+  <div id="joystickAim" class="joystickContainer">
+    <div id="innerAim" class="innerCircle"></div>
+  </div>
+
+  <!-- Choix des powerups -->
+  <div id="powerupContainer" style="display: none;">
+    <h2>Niveau supérieur ! Choisis un bonus :</h2>
+    <div id="powerupOptions"></div>
+  </div>
+
+
+  <script src="../static/js/telecommande.js"></script>
+</body>
+</html>

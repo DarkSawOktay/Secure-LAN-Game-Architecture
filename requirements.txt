@@ -1,0 +1,12 @@
+# Networking
+aiohttp==3.8.5
+
+# Image Processing
+pillow==10.0.0
+qrcode==7.4.2
+
+# Scientific Computing
+numpy==1.24.3
+
+# Game Development
+pygame==2.5.1

@@ -1,0 +1,95 @@
+    body {
+      background: #282c34;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      user-select: none;
+      touch-action: none; /* Permet pointermove sur mobile */
+    }
+    h1 {
+      text-align: center;
+      margin: 10px 0;
+    }
+    #pPseudo {
+      text-align: center;
+      margin-bottom: 0.001vh;
+    }
+
+    #logoContainer {
+      text-align: center;
+      margin-bottom: 2vh;
+    }
+
+    #logo {
+      width: auto;
+      max-height: 90vh;
+      height: 50vh;
+      background: transparent;  
+      display: block;
+      margin: 0 auto;
+    }
+
+
+
+
+    .joystickContainer {
+      position: absolute;
+      bottom: 50px;
+      width: 40%;
+      aspect-ratio: 1;
+      border: 0.3vw solid #fff;
+      border-radius: 50%;
+      overflow: hidden;
+      opacity: 0.4;
+    }
+
+
+
+    #joystickMove {
+      left: 5vw;
+    }
+
+    #joystickAim {
+      right: 5vw;
+    }
+
+
+    .innerCircle {
+      position: absolute;
+      width: 8vw;
+      height: 8vw;
+      background: #61dafb;
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: transform 0.05s;
+    }
+
+    #powerupChoice {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      border: 2px solid #333;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .powerup-btn {
+      margin: 10px;
+      padding: 10px 15px;
+      font-size: 1rem;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .powerup-btn:hover {
+      background: #45a049;
+    }
