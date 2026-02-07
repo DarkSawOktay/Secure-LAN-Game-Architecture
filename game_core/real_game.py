@@ -6,10 +6,10 @@ import sys
 import time
 import math
 import pygame
-from config import PlayerConfig, TeamConfig, GameConfig, ProjectileConfig
+from utils.config import PlayerConfig, TeamConfig, GameConfig, ProjectileConfig
 from queue import Empty
-from obstacle import Obstacle
-from player import Player
+from game_core.obstacle import Obstacle
+from game_core.player import Player
 
 running = True
 

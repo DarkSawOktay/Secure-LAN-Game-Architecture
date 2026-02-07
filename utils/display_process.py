@@ -9,8 +9,8 @@ from queue import Empty
 
 import pygame
 
-from config import PlayerConfig, TeamConfig, GameConfig
-from obstacle import Obstacle
+from utils.config import PlayerConfig, TeamConfig, GameConfig
+from game_core.obstacle import Obstacle
 
 last_positions = {}
 player_was_dead = {}

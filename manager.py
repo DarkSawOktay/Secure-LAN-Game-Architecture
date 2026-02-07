@@ -2,12 +2,12 @@ import multiprocessing as mp
 import sys
 import time
 
-from server_process import webapp_main, get_local_ip
-from admin_process import admin_main
-from display_process import display_main
-from lobby_logic import lobby_logic
-from real_game import real_game_logic
-from recup_couleur import processus_calcul_couleur
+from network.server_process import webapp_main, get_local_ip
+from network.admin_process import admin_main
+from utils.display_process import display_main
+from game_core.lobby_logic import lobby_logic
+from game_core.real_game import real_game_logic
+from utils.recup_couleur import processus_calcul_couleur
 
 def main():
     mp.set_start_method("spawn")

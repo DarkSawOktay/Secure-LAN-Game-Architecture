@@ -3,7 +3,7 @@ import signal
 import time
 import logging
 import sys
-from config import PlayerConfig, TeamConfig, GameConfig
+from utils.config import PlayerConfig, GameConfig
 
 # Configuration du logger
 logger = logging.getLogger("Lobby")

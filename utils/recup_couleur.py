@@ -3,7 +3,7 @@ import pickle
 import sys
 import time
 import numpy as np
-from config import TeamConfig, GameConfig
+from utils.config import TeamConfig, GameConfig
 
 # Configuration du logger
 logger = logging.getLogger("AnalyseCouleur")

@@ -4,8 +4,8 @@ import os
 from pathlib import Path
 import socket
 from aiohttp import web
-from player import Player
-from lobby_logic import assign_team
+from game_core.player import Player
+from game_core.lobby_logic import assign_team
 
 routes = web.RouteTableDef()
 

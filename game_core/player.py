@@ -5,8 +5,8 @@ Gère les joueurs et leurs caractéristiques (position, équipe, vitesse, etc.)
 import logging
 from operator import truediv
 
-from config import PlayerConfig
-from powerup import PowerUp, PowerUpType
+from utils.config import PlayerConfig
+from game_core.powerup import PowerUp, PowerUpType
 
 logger = logging.getLogger("Player")
 
